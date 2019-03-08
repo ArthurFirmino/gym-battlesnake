@@ -1,0 +1,22 @@
+# Editors
+.vscode
+.idea/
+
+# Builds
+build/
+dist/
+board/
+*.out
+*.test
+*.pyc
+*.pyo
+*.so 
+
+# Pip
+gym_battlesnake.egg-info
+
+# General
+*.tgz
+.DS_Store
+coverage.txt
+debug
