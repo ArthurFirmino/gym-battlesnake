@@ -53,7 +53,7 @@ setup(
     install_requires=[
         'gym',
         'numpy',
-        'stable-baselines',
+        'stable-baselines==2.5.0',
     ],
     ext_modules=[CMakeExtension('gym_battlesnake/gym_battlesnake')],
     cmdclass=dict(build_ext=CMakeBuild),
